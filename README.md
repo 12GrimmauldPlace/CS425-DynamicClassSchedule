@@ -24,11 +24,6 @@ This web application is written in HTML, CSS, JavaScript, and JQuery on the fron
 4. If the user instead chooses to search for courses, the  user can fill out the search form with search criteria and submit the form, and then the current page is forwarded to a search results page in the form of a table.
 <img width="1680" alt="Screen Shot 2022-05-25 at 8 11 59 AM" src="https://user-images.githubusercontent.com/26610251/170270070-bb82326c-5117-43c0-b6d5-3a2c727e4152.png">
 
-## Some improvements that I would like to make to this application:
-1. Better formatting of search results page with CSS styling
-2. Registration logic to prevent scheduling conflicts
-3. A downloadable and printable PDF of the student's registration information 
-
 ## Directory Structure: 
 ```bash
 .
@@ -111,3 +106,8 @@ This web application is written in HTML, CSS, JavaScript, and JQuery on the fron
             ├── ajaxrequests.js
             └── jquery-3.6.0.min.js
 ```
+
+## Some improvements that I would like to make to this application:
+1. Better formatting of search results page with CSS styling
+2. Registration logic to prevent scheduling conflicts
+3. A downloadable and printable PDF of the student's registration information 
