@@ -1,6 +1,6 @@
 # CS425-DynamicClassSchedule
 
-This web application was a college course project.
+This web application was a college course assigned project.
 
 Running this web application requires Java, Apache Tomcat server, and a MySQL database server. 
 
