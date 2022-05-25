@@ -29,5 +29,84 @@ This web application is written in HTML, CSS, JavaScript, and JQuery on the fron
 2. Registration logic to prevent scheduling conflicts
 3. A downloadable and printable PDF of the student's registration information 
 
-
+## Directory Structure: 
+.
+├── build
+│   ├── empty
+│   ├── generated-sources
+│   │   └── ap-source-output
+│   └── web
+│       ├── META-INF
+│       │   ├── MANIFEST.MF
+│       │   └── context.xml
+│       ├── WEB-INF
+│       │   ├── classes
+│       │   │   └── edu
+│       │   │       └── jsu
+│       │   │           └── mcis
+│       │   │               └── cs425
+│       │   │                   └── lab6
+│       │   │                       ├── DropServlet.class
+│       │   │                       ├── ParameterBean.class
+│       │   │                       ├── RegisterServlet.class
+│       │   │                       ├── RegistrationDatabase.class
+│       │   │                       └── SearchServlet.class
+│       │   ├── lib
+│       │   │   ├── json-simple-1.1.1.jar
+│       │   │   └── mysql-connector-java-8.0.19.jar
+│       │   └── web.xml
+│       ├── login.jsp
+│       └── secure
+│           ├── index.jsp
+│           ├── logout.jsp
+│           ├── register.jsp
+│           ├── schedulelisting.jsp
+│           ├── schedulesearch.jsp
+│           └── scripts
+│               ├── ScheduleSearch.js
+│               ├── ajaxrequests.js
+│               └── jquery-3.6.0.min.js
+├── build.xml
+├── dist
+│   └── CS425Lab6.war
+├── nbproject
+│   ├── ant-deploy.xml
+│   ├── build-impl.xml
+│   ├── genfiles.properties
+│   ├── private
+│   │   ├── private.properties
+│   │   └── private.xml
+│   ├── project.properties
+│   └── project.xml
+├── src
+│   ├── conf
+│   │   └── MANIFEST.MF
+│   └── java
+│       └── edu
+│           └── jsu
+│               └── mcis
+│                   └── cs425
+│                       └── lab6
+│                           ├── DropServlet.java
+│                           ├── ParameterBean.java
+│                           ├── RegisterServlet.java
+│                           ├── RegistrationDatabase.java
+│                           └── SearchServlet.java
+├── test
+└── web
+    ├── META-INF
+    │   └── context.xml
+    ├── WEB-INF
+    │   └── web.xml
+    ├── login.jsp
+    └── secure
+        ├── index.jsp
+        ├── logout.jsp
+        ├── register.jsp
+        ├── schedulelisting.jsp
+        ├── schedulesearch.jsp
+        └── scripts
+            ├── ScheduleSearch.js
+            ├── ajaxrequests.js
+            └── jquery-3.6.0.min.js
 
