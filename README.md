@@ -30,6 +30,7 @@ This web application is written in HTML, CSS, JavaScript, and JQuery on the fron
 3. A downloadable and printable PDF of the student's registration information 
 
 ## Directory Structure: 
+```bash
 .
 ├── build
 │   ├── empty
@@ -109,4 +110,4 @@ This web application is written in HTML, CSS, JavaScript, and JQuery on the fron
             ├── ScheduleSearch.js
             ├── ajaxrequests.js
             └── jquery-3.6.0.min.js
-
+```
