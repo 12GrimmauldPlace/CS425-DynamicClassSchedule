@@ -1,5 +1,7 @@
 # CS425-DynamicClassSchedule
 
+This web application was a college course project.
+
 Running this web application requires Java, Apache Tomcat server, and a MySQL database server. 
 
 This web application is written in HTML, CSS, JavaScript, and JQuery on the frontend. The backend is handled by Ajax, Java (JSP, servlets, JavaBean, database object), and SQL.
