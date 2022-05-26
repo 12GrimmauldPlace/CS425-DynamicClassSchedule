@@ -111,3 +111,4 @@ This web application is written in HTML, CSS, JavaScript, and JQuery on the fron
 1. Better formatting of search results page with CSS styling
 2. Registration logic to prevent scheduling conflicts
 3. A downloadable and printable PDF of the student's registration information 
+4. Add a new user registration feature
